@@ -1,0 +1,33 @@
+@media (max-width:1300px){
+    .container{
+        padding: 0px 40px;
+    }
+}
+
+@media (max-width:768px){
+    .flexbox{
+        justify-content: center;
+    }
+    #header h1{
+        font-size: 16px;
+    }
+    #header {
+        padding: 25px 0px;
+    }
+    .preferences .input-container{
+        margin-bottom: 20px;
+    }
+    .country{
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width:479px){
+    .country .texts .info{
+        column-count: 1;
+    }
+    #header .dark-mode {
+        width: 69px;
+        font-size: 11px;
+    }
+}
